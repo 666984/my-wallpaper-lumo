@@ -1,0 +1,19 @@
+{
+  "name": "lumo-wall",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && npx @cloudflare/next-on-pages build"
+  },
+  "dependencies": {
+    "next": "14.2.5",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "@auth/core": "^0.34.0",
+    "next-auth": "5.0.0-beta.21"
+  },
+  "devDependencies": {
+    "@cloudflare/next-on-pages": "^1.12.0",
+    "typescript": "5.5.4"
+  }
+}
